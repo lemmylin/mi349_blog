@@ -2,6 +2,23 @@ html{
     background: #e3e3e3;
 }
 
+nav{
+  background: #242424;
+  display:flex;
+  position:sticky; 
+  top: 0; 
+}
+
+a{
+  padding-top:10px;
+  padding-bottom:10px;
+  color:white;
+  flex: auto;
+  text-decoration: none;
+  text-align: center;
+font-size: 20px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px;
@@ -11,6 +28,19 @@ body{
     background: white;
 }
 
+section{
+  display:flex;
+}
+
+article:nth-of-type(1){
+  flex:1;
+  margin: 30px;
+}
+article:nth-of-type(2){
+  flex:1;
+  margin: 30px;
+}
+
 h1{
     font-size: 3em;
     font-style: italic;
@@ -18,7 +48,8 @@ h1{
 }
 
 h2{
-    font-stretch: expanded;
+  font-stretch: expanded;
+  padding: 20px;
 }
 
 h3{
@@ -48,4 +79,10 @@ p{
     background:rgb(172, 222, 221);
     font-style: italic;
     border: 5px solid black;
+}
+
+.about_img{
+    display: flex;
+    float: left;
+    padding-right: 30px;
 }
