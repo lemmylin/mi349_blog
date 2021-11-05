@@ -28,7 +28,7 @@ body{
     background: white;
 }
 
-section{
+[id=blog]{
   display:flex;
 }
 
