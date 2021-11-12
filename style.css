@@ -86,3 +86,13 @@ p{
     float: left;
     padding-right: 30px;
 }
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  [id=blog]{
+    display: inline-block;
+  }
+} 
