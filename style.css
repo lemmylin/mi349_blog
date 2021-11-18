@@ -91,8 +91,8 @@ img {
   width: 100%;
 }
 
-@media (max-width: 600px) {
-  [id=blog]{
+@media (max-width: 400px) {
+  #blog{
     display: inline-block;
   }
 } 
